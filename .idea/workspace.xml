@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57c84175-fc02-441c-bc7f-d14539d98146" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_includes/left-nav-side-bar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/bootstrap/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/custom/helpers/_global-classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom/helpers/_global-classes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/New folder/20170708-Retail3D-Adidas-GraphCitadiumCE-28-2000x1333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/New folder/80ans-jaguarpixiyo-161-22030905081-o-2-2000x1263.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/New folder/AFDLR2016-40x60-FONDsmall-2000x1355.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/New folder/BOOK-3-2000x1333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/New folder/adidas-main-2000x1333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/New folder/•10996535-10153021175024336-2477583663658493212-o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/plane.svg.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/source.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/source.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -23,45 +24,67 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Dates" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="432" column="26" lean-forward="true" selection-start-line="432" selection-start-column="26" selection-end-line="432" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../RV/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="50" column="55" lean-forward="true" selection-start-line="50" selection-end-line="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/source.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.572306">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="252">
+                  <caret line="804" column="52" selection-start-line="804" selection-start-column="52" selection-end-line="804" selection-end-column="52" />
+                  <folding>
+                    <element signature="e#149299#149340#0" expanded="true" />
+                    <element signature="e#149527#149568#0" expanded="true" />
+                    <element signature="e#149906#149948#0" expanded="true" />
+                    <element signature="e#150135#150176#0" expanded="true" />
+                    <element signature="e#150576#150617#0" expanded="true" />
+                    <element signature="e#150804#150845#0" expanded="true" />
+                    <element signature="e#151245#151286#0" expanded="true" />
+                    <element signature="e#151473#151514#0" expanded="true" />
+                    <element signature="n#style#0;n#path#0;n#g#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/assets/css/custom/includes/_header.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/js/source.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="612">
+                  <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,7 +98,15 @@
       <find>role</find>
       <find>dark</find>
       <find>site</find>
+      <find>#FFFFFF</find>
+      <find>primary</find>
+      <find>gallery</find>
+      <find>remin</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>#D9D9D9</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,20 +120,23 @@
         <option value="$PROJECT_DIR$/_includes/left-nav-side-bar.html" />
         <option value="$PROJECT_DIR$/assets/css/custom/includes/_left-nav-side-bar.scss" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
-        <option value="$PROJECT_DIR$/assets/css/main.scss" />
         <option value="$PROJECT_DIR$/assets/css/bootstrap/bootstrap.scss" />
-        <option value="$PROJECT_DIR$/assets/js/source.js" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/assets/js/source.js" />
+        <option value="$PROJECT_DIR$/assets/css/custom/helpers/_mixins.scss" />
+        <option value="$PROJECT_DIR$/assets/css/custom/helpers/_global-classes.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/custom/includes/_header.scss" />
+        <option value="$PROJECT_DIR$/assets/css/main.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1987" />
-    <option name="y" value="28" />
-    <option name="width" value="1239" />
-    <option name="height" value="670" />
+    <option name="x" value="2209" />
+    <option name="y" value="96" />
+    <option name="width" value="1549" />
+    <option name="height" value="838" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -112,6 +146,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,14 +208,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="PluginDummyText.Genre" value="cookery" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RV/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -217,19 +251,29 @@
       <workItem from="1584535514621" duration="6399000" />
       <workItem from="1584554964523" duration="12161000" />
       <workItem from="1584805993927" duration="7155000" />
-      <workItem from="1585062593227" duration="6155000" />
+      <workItem from="1585062593227" duration="6219000" />
+      <workItem from="1585138539594" duration="8250000" />
+      <workItem from="1585240178404" duration="4482000" />
+      <workItem from="1585314444004" duration="11005000" />
+      <workItem from="1585576770465" duration="763000" />
+      <workItem from="1585577934758" duration="244000" />
+      <workItem from="1585578930840" duration="6000" />
+      <workItem from="1585676764171" duration="9330000" />
+      <workItem from="1585843331641" duration="5550000" />
+      <workItem from="1586184875046" duration="10760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33344000" />
+    <option name="totallyTimeSpent" value="83798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19915701" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12802951" />
+      <window_info id="Favorites" order="1" show_stripe_button="false" side_tool="true" weight="0.32982087" />
+      <window_info id="Structure" order="2" show_stripe_button="false" weight="0.12486828" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -238,7 +282,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25135428" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.16251354" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -255,9 +299,6 @@
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/custom/includes/_header.scss">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -290,9 +331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/custom/helpers/_global-classes.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/left-nav-side-bar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -314,34 +352,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/custom/_bootstrap-override.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/source.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../RV/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="50" column="55" lean-forward="true" selection-start-line="50" selection-end-line="51" />
+          <caret line="50" column="55" selection-start-line="50" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dragonsigns/assets/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dragonsigns/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom/helpers/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom/helpers/_global-classes.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Divi Theme Options.json" />
+    <entry file="file://$PROJECT_DIR$/assets/img/tram.svg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="51" column="6" lean-forward="true" selection-start-line="1" selection-end-line="51" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/plane.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="301" lean-forward="true" selection-start-line="3" selection-end-line="301" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/Orange_Sun_Wild_West_Vector_Pixel_Art.svg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="749" selection-start-line="3" selection-end-line="749" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom/_bootstrap-override.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="64" selection-start-line="64" selection-end-line="64" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/source.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="432" column="26" lean-forward="true" selection-start-line="432" selection-start-column="26" selection-end-line="432" selection-end-column="26" />
+        <state relative-caret-position="252">
+          <caret line="804" column="52" selection-start-line="804" selection-start-column="52" selection-end-line="804" selection-end-column="52" />
+          <folding>
+            <element signature="e#149299#149340#0" expanded="true" />
+            <element signature="e#149527#149568#0" expanded="true" />
+            <element signature="e#149906#149948#0" expanded="true" />
+            <element signature="e#150135#150176#0" expanded="true" />
+            <element signature="e#150576#150617#0" expanded="true" />
+            <element signature="e#150804#150845#0" expanded="true" />
+            <element signature="e#151245#151286#0" expanded="true" />
+            <element signature="e#151473#151514#0" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#g#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#6;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom/includes/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

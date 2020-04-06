@@ -3,7 +3,7 @@
 
 @import 'custom/bootstrap-override';
 @import 'bootstrap/bootstrap';
-//@import 'custom/includes/header';
+@import 'custom/includes/header';
 @import 'custom/includes/left-nav-side-bar';
 @import 'custom/includes/_social-btn';
 @import 'custom/includes/gallery';
@@ -23,31 +23,432 @@
 
 
 //hero
+.hero{
+  position: relative;
+  height: 100vh;
+  width:100%;
 
+  &__content{
+    @include centerer;
+    width:100%;
+    left:45%;
+  }
+  ul{
+    @include centerer;
+  }
+  li {
+    list-style-type: none;
+    @include font-light(25px);
+    margin: 10px 0;
+
+    span{
+      padding:5px;
+      transition: all 0.5s;
+    }
+
+    &:hover span{
+      color:#fff;
+    }
+
+    &:hover.one span{
+      background-color: rgb(77, 83, 166);
+    }
+
+    &:hover.two span{
+      background-color: rgb(242, 114, 68);
+    }
+
+    &:hover.three span{
+      background-color: rgb(95, 191, 80);
+    }
+
+    &:hover.four span{
+      background-color: rgb(17, 38, 32);
+    }
+
+    &:hover.five span{
+      background-color: rgb(191, 35, 21);
+    }
+
+    &:hover.six span{
+      background-color: rgb(56, 29, 115);
+    }
+  }
+
+  &-bg-colour{
+    background-color: rgb(79, 85, 167);
+  }
+
+  &__media{
+    position: relative;
+    width:115%;
+    height:80vh;
+    left:-15% !important;
+
+    img{
+      width:120%;
+      height:80vh;
+    }
+  }
+}
 
 //services digital
+.services{
+  position: relative;
+  height:100%;
+  padding:5px;
 
+  @include media-breakpoint-up(lg){
+    padding:10px;
+  }
+
+  &__content{
+    color: #fff;
+  }
+
+  &__header{
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform:translateX(-50%);
+    width:90%;
+
+    h2{
+      @include font-heavy(28px);
+    }
+
+    &--align-left h2{
+      text-align: left;
+    }
+  }
+
+  &__body{
+    position: absolute;
+    top:80%;
+    left:50%;
+    transform:translateX(-50%);
+    width:90%;
+    text-align: center;
+  }
+}
 
 //hebben de
+.hebben-bg-image{
+  background: url("{{site.url}}/assets/img/rodesk-ux-curious-people-2880x1490.jpg") center center no-repeat;
+  background-size: cover;
 
+  @include media-breakpoint-up(lg){
+    height:650px;
+  }
+}
 
-//akson
+.hebben{
+
+  &__content{
+
+    p{
+      color:#000;
+    }
+
+  }
+
+  &--bg-colour{
+    background-color: #eee;
+  }
+
+  &__header img{
+    width:150px;
+    height:150px;
+  }
+
+  &__body p{
+    margin-bottom: 0;
+  }
+}
+
+.jumbotron {
+  padding: 0rem;
+  margin-bottom: 0rem;
+}
+
 
 
 //gallery
+.gallery-bg-colour-primary{
+  background-color: #222222;
+}
 
+.gallery-section h2,p{
+  color:#fff;
+}
+
+.gallery{
+  color:#fff;
+
+
+
+  &-media {
+    position: relative;
+    height: 100%;
+
+    img {
+      display: block;
+      transition: all 0.5s;
+      opacity: 0.9;
+      margin: 10px auto;
+
+
+      @include media-breakpoint-up(lg){
+        margin: 40px auto;
+      }
+
+      width: 600px;
+      height: 394px;
+
+      &:hover {
+        transform: scale(0.9);
+        opacity: 0.6;
+      }
+    }
+  }
+
+  &__content{
+    @include centerer;
+    top:50%;
+    width:80%;
+
+    @include media-breakpoint-up(lg){
+      width:50%;
+      top:65%;
+    }
+
+    h3{
+      text-align: left;
+      font-size: rem-calc(28px);
+    }
+  }
+}
+
+.gallery-bg-colour-secendary{
+  background-color: #1A1A1A;
+}
 
 //desk your work
+#work{
+  @include media-breakpoint-up(lg){
+    margin: 800px 0 200px;
+
+  }
+}
+.wrapper{
+  position: relative;
+  height:100%;
+
+
+  .work{
+    bottom:0;
+    position: relative;
+    width:100%;
+
+    //fixes position on mobile
+    @include media-breakpoint-up(lg){
+      position: absolute;
+    }
+
+    &--height-one{
+      height:450px;
+
+      @include media-breakpoint-up(lg){
+        height:450px;
+      }
+    }
+
+    &--one-bg-colour{
+      background-color: #F24B59;
+    }
+
+    &--height-two{
+      height:450px;
+
+      @include media-breakpoint-up(lg){
+        height:600px;
+      }
+    }
+
+    &--two-bg-colour{
+      background-color: #F28D35;
+    }
+
+    &--height-three{
+
+      height:450px;
+
+      @include media-breakpoint-up(lg){
+        height:500px;
+      }
+    }
+
+    &--three-bg--colour{
+      background-color: #F2916D;
+    }
+
+    &__content{
+      @include centerer;
+      top:50%;
+
+      @include media-breakpoint-up(lg){
+        top:60%;
+      }
+
+      h2{
+        @include font-heavy(35px);
+
+        @include media-breakpoint-up(lg){
+          @include font-heavy(45px);
+        }
+        color:#fff;
+      }
+
+      span{
+        color:#fff;
+      }
+
+
+      @include media-breakpoint-up(lg){
+        &--height-move-down{
+          top:70%;
+        }      }
+
+    }
+  }
+}
 
 
 //desk visual insights
+.visual-bg-colour{
+  background-color: #D9D9D9;
+}
 
+.visual{
+  position: relative;
+  height:100%;
+
+  &__content{
+    @include centerer;
+  }
+
+  &__body{
+    p{
+      color:#000;
+    }
+  }
+
+  &--bg-colour{
+    background-color: #F2B705;
+  }
+
+  &__media{
+    svg{
+      @include centerer;
+      width:300px;
+      height:150px;
+
+      @include media-breakpoint-up(lg){
+        width:400px;
+        height:150px;
+      }
+    }
+  }
+}
 
 //desk reminders
+.reminders-bg-colour{
+  background-color: #D9D9D9;
+}
 
+.reminders{
+  position: relative;
+  height:100%;
+
+  &__content{
+    @include centerer;
+  }
+
+  &__body{
+    p{
+      color:#000;
+    }
+  }
+
+  &--bg-colour{
+    background-color: #F2B705;
+  }
+
+  &__media{
+    svg{
+      @include centerer;
+
+      width:300px;
+      height:150px;
+
+      @include media-breakpoint-up(lg){
+        width:400px;
+        height:150px;
+      }
+
+    }
+  }
+}
 
 //desk be closing
 
 
 //desk be inspired
+.closing-media-wrapper{
+  position: relative;
+  height:100%;
+  width:100%;
+
+  .closing-media{
+    @include centerer;
+
+    svg{
+      position: relative;
+      left:50%;
+      transform:translateX(-50%);
+    }
+  }
+}
+
+.closing-bg-colour-two{
+  background-color: #c2e0f2;
+}
+
+.closing{
+  position: relative;
+  height:100%;
+
+  &__content{
+    @include centerer;
+    position: relative;
+  }
+
+  &__header{
+    line-height: 1.1 !important;
+
+    span{
+      @include font-light(50px);
+      color:$primary;
+    }
+    h2{
+      @include font-heavy(60px);
+    }
+  }
+
+  &__body{
+    p{
+      color:#000;
+    }
+  }
+}
 
