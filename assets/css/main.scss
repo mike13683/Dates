@@ -146,6 +146,9 @@
 
   &__content{
 
+    @include centerer;
+    position: relative;
+
     p{
       color:#000;
     }
@@ -256,10 +259,10 @@
     }
 
     &--height-one{
-      height:450px;
+      height:375px;
 
       @include media-breakpoint-up(lg){
-        height:450px;
+        height:327px;
       }
     }
 
@@ -284,7 +287,7 @@
       height:450px;
 
       @include media-breakpoint-up(lg){
-        height:500px;
+        height:375px;
       }
     }
 
@@ -344,7 +347,8 @@
   }
 
   &--bg-colour{
-    background-color: #F2B705;
+    //background-color: #F2B705;
+
   }
 
   &__media{
@@ -381,7 +385,7 @@
   }
 
   &--bg-colour{
-    background-color: #F2B705;
+    //background-color: #F2B705;
   }
 
   &__media{
@@ -416,6 +420,7 @@
       position: relative;
       left:50%;
       transform:translateX(-50%);
+      z-index: -100;
     }
   }
 }
